@@ -77,7 +77,7 @@ class NavigationBar:
         self.brand_name=brand_name
 
     def CreateNavbar(OnThisPage):
-        color=input("What is the colour of your navigation bar?Insert Hex Code")
+        color=input("What is the colour of your navigation bar?")
         havesearchbar=input("Do you want a search box for your navigation bar?")
         numberoficons=input("How many icons do you want on the navigation bar?")
         numberoficons=int(numberoficons)
@@ -137,6 +137,9 @@ class NavigationBar:
         DropDownDivider='class="dropdown-item" href="#"'
 
         #Configure the NavBar
+        def setnavcolor(color):
+            color=str(color).lower()
+
 
 
 
