@@ -135,6 +135,9 @@ class NavigationBar:
         OpeningHrTag="<hr"
         ClosingHrTag="/>"
         DropDownDivider='class="dropdown-item" href="#"'
+        NavBarMsAuto='class="navbar-nav ms-auto d-flex flex-row mt-3 mt-lg-0'
+        NavBarTextCenter='class="nav-item text-center mx-2 mx-lg-1"'
+
 
         #Configure the NavBar
         def setnavcolor(color):
